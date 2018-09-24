@@ -25,25 +25,24 @@ namespace HutongGames.PlayMaker
     {
         private static bool editorPrefLoaded;
 
-#if UNITY_EDITOR
-
         // loading editorprefs can be slow (?) so cache setting
         private static bool _doLog;
         private static bool doLog
         {
             get
             {
-
+#if UNITY_EDITOR
                 if (!editorPrefLoaded)
                 {
                     // set by FsmEditorSettings
                     _doLog = EditorPrefs.GetBool("PlayMaker.LogFsmUpdatedMessages", false);
                     editorPrefLoaded = true;
                 }
+#endif
+
                 return _doLog;
             }
         }
-#endif
 
         /// <summary>
         /// Helper that can be called by reflection from runtime class without referencing UnityEditor
@@ -67,11 +66,11 @@ namespace HutongGames.PlayMaker
 
             if (fsm.UsedInTemplate != null)
             {
-                EditorUtility.SetDirty(fsm.UsedInTemplate);
+                UnityEditor.EditorUtility.SetDirty(fsm.UsedInTemplate);
             }
             else if (fsm.Owner != null)
             {
-                EditorUtility.SetDirty(fsm.Owner);
+                UnityEditor.EditorUtility.SetDirty(fsm.Owner);
 #if !UNITY_PRE_5_3
                 UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(fsm.Owner.gameObject.scene);
 #elif !UNITY_PRE_5_0

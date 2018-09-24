@@ -24,11 +24,13 @@ public class LoadSceneCustomEditor : CustomActionEditor
 			EditField ("sceneByName");
 		}
 
+		EditField ("asynch");
+
 		EditField ("loadSceneMode");
 
-		EditField("success");
-		EditField("successEvent");
-		EditField("failureEvent");
+		EditField("found");
+		EditField("foundEvent");
+		EditField("notFoundEvent");
 
 		return GUI.changed;
 	}

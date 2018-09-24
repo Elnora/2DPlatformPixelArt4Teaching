@@ -8,7 +8,7 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(UnityEngine.UI.Button))]
-		[Tooltip("The GameObject with the UI Button component.")]
+		[Tooltip("The GameObject with the UGui button component.")]
 		public FsmOwnerDefault gameObject;
 
         [Tooltip("Where to send the event.")]

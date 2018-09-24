@@ -13,7 +13,7 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
-		[Tooltip("The text value of the UI InputField component.")]
+		[Tooltip("The text value of the UGui InputField component.")]
 		public FsmString text;
 		
 		public bool everyFrame;

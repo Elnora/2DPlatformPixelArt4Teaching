@@ -71,7 +71,7 @@ namespace HutongGames.PlayMaker.Actions
 	    public override string AutoName()
 	    {
 	        return "SendEvent : " + (eventTarget.target != FsmEventTarget.EventTarget.Self ? " " + eventTarget.target + " ": "")
-	                              + (sendEvent != null ? sendEvent.Name : "None")
+	                              + sendEvent.Name
 	                              + (delay.Value > 0f ? " " + delay.Value + "s" : "");
 	    }
 
