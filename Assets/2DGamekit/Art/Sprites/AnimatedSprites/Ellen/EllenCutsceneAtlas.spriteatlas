@@ -4,7 +4,8 @@
 SpriteAtlas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: EllenCutsceneAtlas
   m_EditorData:
     serializedVersion: 2
@@ -36,11 +37,12 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3b282ed300911054f9a15dfe288b180b, type: 3}
+    totalSpriteSurfaceArea: 3735552
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:

@@ -24,3 +24,14 @@ The following packages were updated:
   com.unity.postprocessing from version 2.0.9-preview to 2.1.2
   com.unity.purchasing from version 2.0.3 to 2.0.6
   com.unity.textmeshpro from version 1.2.4 to 2.0.1
+
+=== Thu Nov 21 13:39:31 2019
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.cinemachine@2.3.3
+  com.unity.ide.visualstudio@1.0.11
+The following packages were updated:
+  com.unity.postprocessing from version 2.1.2 to 2.1.6
