@@ -417,7 +417,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 30
     mosaicPosition: {x: 0, y: 0}
   - name: HairFront
@@ -438,7 +438,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 22
     mosaicPosition: {x: 0, y: 0}
   - name: DressFront
@@ -459,7 +459,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 82
     mosaicPosition: {x: 0, y: 0}
   - name: LegFront
@@ -480,7 +480,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 19
     mosaicPosition: {x: 0, y: 0}
   - name: LegFront
@@ -501,7 +501,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 86
     mosaicPosition: {x: 0, y: 0}
   - name: ArmFront
@@ -522,7 +522,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 24
     mosaicPosition: {x: 0, y: 0}
   - name: ArmFront
@@ -543,7 +543,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 27
     mosaicPosition: {x: 0, y: 0}
   - name: HeadFront

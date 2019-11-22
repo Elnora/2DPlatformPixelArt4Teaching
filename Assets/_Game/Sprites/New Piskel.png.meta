@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: 66a836206cc13b94c9f0a7d3ed4cf8d3
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: New Piskel_0
-    21300002: New Piskel_1
-    21300004: New Piskel_2
-    21300006: New Piskel_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: New Piskel_0
+  - first:
+      213: 21300002
+    second: New Piskel_1
+  - first:
+      213: 21300004
+    second: New Piskel_2
+  - first:
+      213: 21300006
+    second: New Piskel_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,7 +70,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -73,7 +81,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -84,7 +93,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,7 +105,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,6 +117,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,13 +130,14 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82a2199af2ea22e4fa2928ede8ed48bd
+      spriteID: d0ca3a497ba6ddd43b886823602f5ab5
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -138,13 +151,14 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bbad0df5aa298c4090c6059f14650a6
+      spriteID: e5beb0163bd6bcd4e990f889f2c0baba
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -158,13 +172,14 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a45faf45f885649a7810a09538f099
+      spriteID: 3c47d6c3b2b0a914f832a350bd73eaf1
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -178,13 +193,14 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8f0f5c906c787347a24be75f994b3cc
+      spriteID: 29178cce1575465408e3f94059635565
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -193,10 +209,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 0e6e9ffaaaafb9840b9d764be280f6ed
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

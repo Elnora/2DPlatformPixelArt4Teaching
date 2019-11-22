@@ -1,43 +1,40 @@
 fileFormatVersion: 2
-guid: 2b7f2095fd51a644395b1b79ff6105e7
+guid: a6657dc63d16971409968919bdb9b10f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: 2x_0
+      213: -7674005734931288221
+    second: Face
   - first:
-      213: 21300002
-    second: 2x_1
+      213: 9131409895115202121
+    second: FaceSleep
   - first:
-      213: 21300004
-    second: 2x_2
+      213: 8055579879959561375
+    second: EarL
   - first:
-      213: 21300006
-    second: 2x_3
+      213: 8436307012406296026
+    second: EarR
   - first:
-      213: 21300008
-    second: 2x_4
+      213: -7348883538480033948
+    second: Tail
   - first:
-      213: 21300010
-    second: 2x_5
+      213: 5201598005392077057
+    second: Body
   - first:
-      213: 21300012
-    second: 2x_6
+      213: 4572069043278868332
+    second: MeowSpeech
   - first:
-      213: 21300014
-    second: 2x_7
+      213: -6026984699539328039
+    second: FaceHit
   - first:
-      213: 21300016
-    second: 2x_8
+      213: 1555360087773273341
+    second: Leg
   - first:
-      213: 21300018
-    second: 2x_9
+      213: -7794503361682933934
+    second: CuteAnimal_9
   - first:
-      213: 21300020
-    second: 2x_10
-  - first:
-      213: 21300022
-    second: 2x_11
+      213: 904414185795783192
+    second: CuteAnimal_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -81,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +102,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -117,282 +114,195 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2x_0
+      name: Face
       rect:
         serializedVersion: 2
-        x: 57
-        y: 52
-        width: 144
-        height: 146
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f28ec4784628ca47b20af54e27386f9
-      internalID: 21300000
+      spriteID: 9d4501ea664355843b4f3e7ca03f9c40
+      internalID: -7674005734931288221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_1
+      name: FaceSleep
       rect:
         serializedVersion: 2
-        x: 220
-        y: 52
-        width: 143
-        height: 148
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69f6eda364853e3439b19b48a370edbd
-      internalID: 21300002
+      spriteID: 0cfcf14f8d99e0d4aa5b553466cd3449
+      internalID: 9131409895115202121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_2
+      name: EarL
       rect:
         serializedVersion: 2
-        x: 382
-        y: 52
-        width: 144
-        height: 148
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7392b8dedb46c45b7b5a7580e22549
-      internalID: 21300004
+      spriteID: a06c8ceeeaf0b6f42a38acc262d2599d
+      internalID: 8055579879959561375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_3
+      name: EarR
       rect:
         serializedVersion: 2
-        x: 545
-        y: 52
-        width: 144
-        height: 150
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ee89a7cb2ec4ee4ebf081f846bddf96
-      internalID: 21300006
+      spriteID: 79ac6d23b9ac39e469a1c472fe51c18d
+      internalID: 8436307012406296026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_4
+      name: Tail
       rect:
         serializedVersion: 2
-        x: 708
-        y: 52
-        width: 144
-        height: 150
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d8873b56e92e6741a7af4c3acfcb834
-      internalID: 21300008
+      spriteID: d8dfcb7f071ca5f40a7e0d4adac69c6c
+      internalID: -7348883538480033948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_5
+      name: Body
       rect:
         serializedVersion: 2
-        x: 871
-        y: 52
-        width: 144
-        height: 152
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 768
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5116044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b339aea781101024895ca39c11ef4bb9
-      internalID: 21300010
+      spriteID: 79ee37d86fb60ba43a4c1214668024b5
+      internalID: 5201598005392077057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_6
+      name: Leg
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 52
-        width: 144
-        height: 152
+        x: 2
+        y: 258
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19bbd9f8ea3c5554d8cb3bb15aa2730c
-      internalID: 21300012
+      spriteID: 6970019ce97e5044c8b2140ef77bfa0a
+      internalID: 1555360087773273341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_7
+      name: MeowSpeech
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 52
-        width: 144
-        height: 150
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36fbd38e66566d640889e53de5702c95
-      internalID: 21300014
+      spriteID: f797a4879f0e0cd45879b5ba309b5964
+      internalID: 4572069043278868332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2x_8
+      name: FaceHit
       rect:
         serializedVersion: 2
-        x: 1359
-        y: 52
-        width: 144
-        height: 150
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ffb825bfc869ac4f83bf981e83b5794
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2x_9
-      rect:
-        serializedVersion: 2
-        x: 1522
-        y: 52
-        width: 144
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 709707cbbc495514697f6e7635302156
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2x_10
-      rect:
-        serializedVersion: 2
-        x: 1685
-        y: 52
-        width: 143
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55f94cebf16263e4dbab2b09939aa25e
-      internalID: 21300020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2x_11
-      rect:
-        serializedVersion: 2
-        x: 1847
-        y: 52
-        width: 144
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c4e418ca5532ad4a850362f9e7ed886
-      internalID: 21300022
+      spriteID: 63db9f4573a100a46892d7c58e5b45f6
+      internalID: -6026984699539328039
       vertices: []
       indices: 
       edges: []
@@ -400,7 +310,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3ca839dfea0076c40843502419e9c8a3
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
