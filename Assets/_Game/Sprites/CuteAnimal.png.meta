@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 904414185795783192
     second: CuteAnimal_10
+  - first:
+      213: -7674005734931288221
+    second: FaceHappy
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -303,6 +306,27 @@ TextureImporter:
       bones: []
       spriteID: 63db9f4573a100a46892d7c58e5b45f6
       internalID: -6026984699539328039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FaceHappy
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2362294958b6bbf4c8989838a4de4c86
+      internalID: -7674005734931288221
       vertices: []
       indices: 
       edges: []
