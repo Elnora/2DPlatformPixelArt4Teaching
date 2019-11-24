@@ -1,32 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-6742851459724629663
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Fox_Pur
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e06c5f6f922f2704c90aed5637412078, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-5146248571775315035
+--- !u!1102 &-7750184407108398705
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -52,14 +26,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5135036856906517906
+--- !u!1102 &-6127990141418085991
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fox_idle
+  m_Name: Fox-run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -72,7 +46,33 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b0469c0b25f4965449f294736b0ed444, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2f6637ca4ccb91945a680f19311bfe28, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-4741728551808111169
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fox-pant
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 34058c92dad1f8046b3c3df475d46f1b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -104,14 +104,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-2214339334001103227
+--- !u!1102 &-1995622335589671013
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fox-run
+  m_Name: Fox-idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -124,20 +124,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2f6637ca4ccb91945a680f19311bfe28, type: 2}
+  m_Motion: {fileID: 7400000, guid: af6597673269a744ba9adb24cbdd95c3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-1460176760760804885
+--- !u!1102 &-1768589059376725322
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fox_Run
+  m_Name: Fox-walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -150,7 +150,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fe55571d07b1a8e4186e89a72b625ef6, type: 2}
+  m_Motion: {fileID: 7400000, guid: 54d2a7f432087184dafdda4d01ba5ad3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -178,32 +178,6 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &3338162089560046287
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Fox_walk
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 26162e09adc723b48828fbc144fc4e2c, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1107 &6065354633334188642
 AnimatorStateMachine:
   serializedVersion: 5
@@ -214,30 +188,27 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -6742851459724629663}
-    m_Position: {x: 220, y: 50, z: 0}
+    m_State: {fileID: -4741728551808111169}
+    m_Position: {x: 565.5488, y: 123.551834, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5135036856906517906}
-    m_Position: {x: 490, y: 40, z: 0}
+    m_State: {fileID: -7750184407108398705}
+    m_Position: {x: 600, y: 280, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3338162089560046287}
-    m_Position: {x: 530, y: 110, z: 0}
+    m_State: {fileID: -6127990141418085991}
+    m_Position: {x: 752.3628, y: 208.99391, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -1460176760760804885}
-    m_Position: {x: 560, y: 170, z: 0}
+    m_State: {fileID: -1768589059376725322}
+    m_Position: {x: 240, y: 210, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5146248571775315035}
-    m_Position: {x: 630, y: 300, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -2214339334001103227}
-    m_Position: {x: 665, y: 365, z: 0}
+    m_State: {fileID: -1995622335589671013}
+    m_Position: {x: 290, y: 410, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 300, y: 170, z: 0}
+  m_EntryPosition: {x: 270, y: 330, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -6742851459724629663}
+  m_DefaultState: {fileID: -1995622335589671013}
