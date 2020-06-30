@@ -42,6 +42,6 @@ EditorBuildSettings:
     path: 
     guid: 1b6fd90cf2d7eee49895bf4317d238d4
   - enabled: 1
-    path: Assets/_Game/Scenes/NewScene.unity
+    path: Assets/01 Project/Scenes/NewScene.unity
     guid: 66c493d9c0276584ebc5312008a89379
   m_configObjects: {}
